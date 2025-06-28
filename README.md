@@ -14,6 +14,8 @@ The Cinnamon Quality Prediction Model analyzes the following parameters to deter
 - Chromium content (mg/kg)
 - Coumarin content (mg/kg)
 
+Put the model pickle file inside the model directory.
+
 ## Installation and Setup
 
 ### Prerequisites
