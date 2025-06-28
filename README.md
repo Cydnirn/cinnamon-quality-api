@@ -28,7 +28,7 @@ Put the model pickle file inside the model directory.
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Cydnirn/cinnamon-quality-api.git
 cd cinnamon-model
 ```
 
@@ -69,6 +69,7 @@ The API will be available at http://localhost:5000/
 ### Endpoints
 
 - **POST /predict**: Predict cinnamon quality based on input parameters.
+- **GET /health**: Get API status.
 
 ### Request Format
 
