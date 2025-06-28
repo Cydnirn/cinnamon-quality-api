@@ -2,6 +2,8 @@
 
 This project provides a machine learning model that predicts cinnamon quality based on various physical and chemical properties. The model is exposed through a simple Flask API, which can be run locally or deployed using Docker.
 
+Data from [Kaggle](https://www.kaggle.com/datasets/madaraweerasingha/cinnamon-quality-classification)
+
 ## Project Overview
 
 The Cinnamon Quality Prediction Model analyzes the following parameters to determine cinnamon quality:
