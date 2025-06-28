@@ -90,6 +90,7 @@ The response will be a JSON object with the predicted quality score:
 ```json
 {
   "prediction": "Medium" | "High" | "Low",
+  "confidence": <float>,
   "status": "success"
 }
 ```
@@ -111,6 +112,7 @@ curl -X POST http://localhost:5000/predict \
 ```json
 {
   "prediction": "Medium",
+  "confidence": 100.00,
   "status": "success"
 }
 ```
